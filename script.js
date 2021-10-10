@@ -17,10 +17,10 @@ function imc () {
             i++;
         }
         
-        paragraph.textContent = `${texto}`;
+        paragraph.textContent = `xd ${text}`;
 
     }else {
-        resultado.textContent = 'Erro! Porfavor preencha todos os campos!';
+        paragraph.textContent = 'Erro! Porfavor preencha todos os campos!';
     }
 
 }
