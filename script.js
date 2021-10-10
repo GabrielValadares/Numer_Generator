@@ -20,7 +20,7 @@ function imc () {
         paragraph.textContent = `xd ${text}`;
 
     }else {
-        resultado.write('<p>Erro! Porfavor preencha todos os campos!</p>');
+        paragraph.textContent = 'Erro! Porfavor preencha todos os campos!';
     }
 
 }
