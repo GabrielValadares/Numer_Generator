@@ -13,12 +13,12 @@ function imc () {
         
         while (i < numero) {
             
-            text += i + ") <br><br><br>";
+            text += `${i})<br><br><br>`;
             i++;
             texto = text;
         }
         
-        resultado.textContent = `Ola, ${texto}. Ola ${text}`;
+        resultado.textContent = `Ola`;
 
     }else {
         resultado.textContent = 'Erro! Porfavor preencha todos os campos!';
