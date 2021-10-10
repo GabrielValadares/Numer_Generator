@@ -9,7 +9,7 @@ function imc () {
 
     if (numero !== '') {
         
-        var i = 0;
+        var i = 1;
         
         while (i < numero) {
             
@@ -18,6 +18,8 @@ function imc () {
         }
         
         paragraph.textContent = `xd ${text}`;
+        
+        document.write(`${text}`);
 
     }else {
         paragraph.textContent = 'Erro! Porfavor preencha todos os campos!';
