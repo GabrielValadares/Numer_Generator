@@ -11,7 +11,7 @@ function imc () {
         
         var i = 1;
         
-        while (i < numero) {
+        while (i <= numero) {
             
             text += `${i})<br><br><br>`;
             i++;
