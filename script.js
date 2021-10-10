@@ -4,7 +4,7 @@ const executar = document.getElementById('executar');
 function imc () {
     const numero = document.getElementById('numero').value;
     const resultado = document.getElementById('resultado');
-    var texto = "";
+    const paragraph = document.getElementById('resultP');
     var text = "";
 
     if (numero !== '') {
@@ -15,10 +15,9 @@ function imc () {
             
             text += `${i})<br><br><br>`;
             i++;
-            texto = text;
         }
         
-        resultado.textContent = `Ola`;
+        paragraph.textContent = `${texto}`;
 
     }else {
         resultado.textContent = 'Erro! Porfavor preencha todos os campos!';
