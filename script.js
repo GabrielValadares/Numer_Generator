@@ -3,11 +3,15 @@ const executar = document.getElementById('executar');
 
 function imc () {
     const numero = document.getElementById('numero').value;
+    const autor = document.getElementById('autor').value;
+    const nome = document.getElementById('nome').value;
     const resultado = document.getElementById('resultado');
     const paragraph = document.getElementById('resultP');
     var text = "";
 
-    if (numero !== '') {
+    if (numero !== '' && autor !== '' && nome !== '') {
+        
+        text += `${nome}<br><br>${autor}<br><br><br>`;
         
         var i = 1;
         
