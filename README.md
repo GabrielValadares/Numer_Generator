@@ -4,9 +4,6 @@ Generates a template of a numbered list with adjustable size based on number inp
 
 🇧🇷
 # Gerador de numeros
-
-
-# NumberGenerator
 Gerador de numeros
 
  <a href="https://21900884.github.io/NumberGenerator/" target="_blank">Acess / Link Acesso!</a> 
